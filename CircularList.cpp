@@ -112,15 +112,6 @@ void CircularList<T>::add(T data) {
 
 /**
  * Delete element from the list.
- * It uses a predicate function to find out should item be deleted
- *
- * @tparam T - Node type
- * @param data - value which should be deleted from the list
- * @return "true" if value was successfully deleted from the list; "false" - if not found
- */
-
-/**
- * Delete element from the list.
  *
  * @tparam T - Node type
  * @param predicate - the function is invoked for each node. Returns "true" - if should be deleted, "false" if not
